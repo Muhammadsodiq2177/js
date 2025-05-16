@@ -1,30 +1,36 @@
-if - agar
-else - aks holda
-if(shart){
-shart tog'ri bo'lsa bajariladigan ish
-}else{
-shart notog'ri bo'lsa bajariladigan ish
-}
+# js compilers
 
-@topshiriq yosh nomli o'zgaruvchi yarating va agar yosh 18dan katta yoki teng bo'lsa terminalda ovozberish mumkin aks holda ovoz berish mumkin emas yozuvhi chiqsin
+console - html faylga ulab browserda ko'rish
+online compilers - online saytlarda kodni yurg'izib natijani ko'rish
+terminal - node js orqali
 
-agar 1tadan ko'proq shartlarni tekshirishimiz kk bo'lsa else ifdan foydalanamiz
-if(shart){
-shart tog'ri bo'lsa bajariladigan ish
-}else if(shart){
-shart tog'ri bo'lsa bajariladigan ish
-}else if(shart){
-shart tog'ri bo'lsa bajariladigan ish
-}else{
-shart notog'ri bo'lsa bajariladigan ish
-}
+# js ishlash strukturasi
 
-@topshiriq else ifdan foydalanib ob-havo haqida ma'lumot beradigan code yozing
+singlethread // 1 vaqtda faqat 1ta ish bajara olish
 
-ternary operatori
-shart ? shart tog'ri bo'lsa bajariladigan ish :shart notog'ri bo'lsa bajariladigan ish
-agar biz faqat 2ta holatni tekshiradigan bo'lsak ternary operatoridan foydalangamiz yaxshiroq.
+# o'zgaruvchilar
 
-@topshiriq JS homeworkdagi vazifalarni ishlab bering
+var  
+let
+const // o'zgarmas ozgaruvchi
+global variable // global o'zgaruvchi
+reserved keywords // band qilingan nomlar
 
-@topshiriq 
+# Data types
+
+Primitive:
+
+Number // sonlar
+String // matnlar
+Bigint // kattaroq sonlarda ham ishlay olish uchun kk
+Boolean // true & false
+undefined
+null
+Symbol // o'zgarmas id beradi
+
+Non-Primitive:
+
+Object:
+array // turli xildagi ma'lumotni o'z ichiga ola oladi
+object // turli xildagi ma'lumotni o'z ichiga ola oladi va ma'lumotlarga key yani nom beriladi
+function // funksiya
